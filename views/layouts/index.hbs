@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Pronto Form Preview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+    <style>
+        /*8.5 x 11.0 in*/
+        .print {
+            height: 11in;
+            width: 8.5in;
+        }
+        .overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 100;
+            background: url("/form04.png");
+            background-size: contain;
+            opacity: 20%;
+        }
+    </style>
+</head>
+<body>
+<!--<button onclick="previewPdf()">Preview PDF</button>-->
+<div class="print overlay" style="display: none;"></div>
+<div id="content" class="print">
+    {{{body}}}
+</div>
+</body>
+</html>

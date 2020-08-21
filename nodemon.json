@@ -1,0 +1,10 @@
+{
+    "watch": [
+        "./data/",
+        "./public/",
+        "./package.json",
+        "./server.js",
+        "./views/"
+    ],
+    "verbose": true
+}

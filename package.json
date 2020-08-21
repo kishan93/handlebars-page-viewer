@@ -1,0 +1,25 @@
+{
+  "name": "prontoforms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --config ./nodemon.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/kishan42/pronto-forms-parth.git"
+  },
+  "author": "kishan42",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/kishan42/pronto-forms-parth#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-hbs": "^2.3.4",
+    "open": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
